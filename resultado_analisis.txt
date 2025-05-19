@@ -1,0 +1,9 @@
+    with open("resultado_analisis.txt", "w", encoding="utf-8") as f:
+        f.write("Análisis de Archivos PDF\n")
+        f.write("========================\n")
+        f.write(f"Archivo 1: {ruta1}\n")
+        f.write(f"Archivo 2: {ruta2}\n\n")
+        f.write(f"Riqueza léxica del Texto 1: {riqueza1:.2f}\n")
+        f.write(f"Riqueza léxica del Texto 2: {riqueza2:.2f}\n")
+        f.write(f"Probabilidad de plagio (similitud): {similitud:.2f}%\n")
+        f.write("\nGráfica guardada como: grafica_comparacion.png\n")
